@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+/* ol, ul {
+	list-style: none;
+} */
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* # Our Style */
+/* .main{
+    width: 1160px;
+    margin: 0 auto;
+} */
+
+body{
+    line-height: 1.5;
+    background-color: rgb(230, 230, 224);
+}
+.header{
+    background-color: rgb(9, 9, 61);
+    padding: 10px;
+    text-align: center;
+}
+.anchor{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.green{
+    color: rgb(3, 180, 3);
+}
+.White{
+    color: white;
+}
+h1{
+    font-size: 30px;
+    word-spacing: 4px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding: 25px;
+}
+.heading{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(65, 62, 62);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    
+}
+.container{
+    background-color: #99d8ca;
+    width: 150px;
+    height: 150px;
+    margin: 38px auto;
+    border: 13px solid #5873e2;
+    border-radius: 4px;
+    outline: 7px solid #0d1430;
+    box-shadow: 0 0 0 22px #90ffa9;
+}
+.section{
+    width: 800px;
+    /* padding: 20px; */
+    margin: 0 auto;
+}
+.colors{
+    display: inline-block;
+
+}
+.Box{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #99d8ca;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 10px;
+}
+.color2{
+    background-color: #0d1430;
+}
+.color3{
+    background-color: #90ffa9;
+}
+.color4{
+    background-color: #5873e2;
+}
+.colors{
+    text-align: center;
+    padding: 5px;
+}
+hr{
+    margin: 40px auto;
+    border-style: dashed;
+    border-color: rgb(171, 162, 162);
+}
+.box1{
+    width: 600px;
+    border: 2px solid black;
+    margin: 20px auto;
+    font-size: 0;
+    
+    /* display: inline-block; */
+}
+.child{
+    width: 180px;
+    height: 100px;
+    background-color: rgb(161, 209, 227);
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+   
+}
+.div{
+    border: 2px solid black;
+    padding: 3px;
+}
+.footer{
+    margin: 17px auto;
+    font-size: 28px;
+    /* padding: 30px; */
+}
+ul{
+    padding: 50px 0px;
+}
+li{
+    font-size: large;
+    font-family: sans-serif;
+    padding: 8px;
+}
+.list{
+    color: rgb(99, 102, 105);
+}
+/* Blog Page Stlying */
+
+.Blog{
+    width: 1000px;
+    margin: 20px auto;
+}
+.Big{
+    font-size: 20px;
+    color: #070c21;
+    padding: 7px;
+    text-align: start;
+}
+.para{
+    font-size: 16px;
+    padding: 7px;
+}
+button{
+    width: 107px;
+    height: 33px;
+    margin: 10px auto;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(56, 183, 56);
+    /* vertical-align: middle; */
+}
+img{
+    width: 420px;
+    /* height: 280px; */
+}
+.item{
+    width: 420px;
+    padding: 13px 12px;
+    display: inline-block;
+    
+}
+.One{
+    vertical-align: top;
+}
+.foot{
+    color: #010515;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+}
+.link{
+    color: rgb(9, 216, 9);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
